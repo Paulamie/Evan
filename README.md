@@ -5,9 +5,9 @@ An AI-enhanced Flask web app that helps users manage their budget, track expense
 
 ---
 
-## 💡 Overview
+##  Overview
 
-**FinSense** (originally named Evan) is a personal finance tracker and assistant powered by Python, Flask, and TensorFlow. It enables users to:
+**Evan**  is a personal finance tracker and assistant powered by Python, Flask, and TensorFlow. It enables users to:
 
 - Register and manage budgets
 - Record income and expenses
@@ -16,19 +16,19 @@ An AI-enhanced Flask web app that helps users manage their budget, track expense
 
 ---
 
-## 🧰 Features
+## Features
 
-- 🔐 User registration and login
-- 💼 Budget and income tracking
-- 📉 Expense entry and history
-- 📊 Spending prediction with TensorFlow
-- 📆 Calendar-based views and statistics
-- 📂 SQL database for data persistence
-- 🧪 Unit testing with pytest
+- User registration and login
+- Budget and income tracking
+- Expense entry and history
+- Spending prediction with TensorFlow
+- Calendar-based views and statistics
+- SQL database for data persistence
+- Unit testing with pytest
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -56,14 +56,14 @@ Visit: `http://localhost:5000`
 
 ---
 
-## 🧠 ML Model
+##  ML Model
 
 - `spending_model_tf.h5` is a trained model used in `expensePredModel.py` to estimate future expenses based on past data.
 - Adjust model or retrain with new datasets for enhanced predictions.
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 Run unit tests:
 
@@ -71,27 +71,9 @@ Run unit tests:
 pytest app/test_evan.py
 ```
 
----
 
-## 📁 Project Structure
 
-```
-Evan/
-├── app/
-│   ├── __init__.py
-│   ├── routes.py
-│   ├── dbfunc.py
-│   ├── expensePredModel.py
-│   ├── templates/
-│   ├── static/
-│   └── Evan.sql
-├── spending_model_tf.h5
-└── requirements.txt
-```
-
----
-
-## ✨ Future Improvements
+## Future Improvements
 
 - Add expense category analytics
 - Improve dashboard visuals with Plotly or Chart.js
@@ -100,7 +82,7 @@ Evan/
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 Developed by **Ana Paula Goncalves**  
 AI-powered budgeting assistant created as part of a personal or academic software project.
